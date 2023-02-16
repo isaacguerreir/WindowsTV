@@ -12,9 +12,12 @@ So, I would like to say. I'm not responsible for whatever you with this. Try not
 ```{bash}
 chocolatey
 
-## You can install node using nvim.
-nvim
-node
+## You can install node using nvm.
+choco install nvm
+nvm install 16
+nvm use 16.19.0
+
+node -v
 ```
 
 ### To connect to your tv
